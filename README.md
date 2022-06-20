@@ -4,7 +4,7 @@
 # Login Form
 
 Pagina per verificare l’accesso. Se l’utente è registrato, quindi presente 
-nel DB, potrà accedere. Altrimenti verrà lanciato un’errore. 
+nel DB, potrà accedere. Altrimenti verrà lanciato un errore. 
 
 Per simulare la registrazione ho aggiunto manualmente un utente nel 
 database.
