@@ -64,12 +64,11 @@ public class User {
 }
 ```
 
-Questa classe ci permette di istanziare un nuovo utente. Questo tipo di 
-classe è detto “JavaBean” e per poter esserlo deve avere determinate 
+Questa classe ci permette di istanziare un nuovo utente. Questa classe è detta “JavaBean” e per poter esserlo deve avere determinate 
 caratteristiche:
 
 - Avere un costruttore senza argomenti.
-- Avere metodi get/set
+- Avere metodi get/set.
 - Permettere la serializzazione.
 
 ---
@@ -157,10 +156,9 @@ envContext.lookup(DATASOURCE);
 	}
 ```
 
-La prima cosa è stata definire le stringhe ci permettono di accedere al 
+La prima cosa è stata definire le stringhe che ci permettono di accedere al 
 datasource nel file context.xml di tomcat. Successivamente definiamo una 
-stringa che contiene al query per il database. In questo caso ci serve 
-prelevare ogni utente per poi fare una comparazione. 
+stringa che contiene la query per il database. 
 
 La connessione effettiva è nel metodo getConnection();.
 
